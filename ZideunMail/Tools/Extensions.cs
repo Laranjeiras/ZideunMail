@@ -1,9 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Collections.Specialized;
-using System.Diagnostics;
 
-namespace ZideunMail.Std.Tools
+namespace ZideunMail.Tools
 {
     public static class Extensions
     {
@@ -42,8 +41,7 @@ namespace ZideunMail.Std.Tools
                 initial.Add(item, other[item]);
             }
         }
-
-        [DebuggerStepThrough]
+        
         public static bool HasValue(this string value)
         {
             return !string.IsNullOrWhiteSpace(value);

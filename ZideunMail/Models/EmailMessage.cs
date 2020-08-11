@@ -4,7 +4,7 @@ using System.IO;
 using System.Net;
 using System.Net.Mail;
 using System.Text;
-using ZideunMail.Std.Tools;
+using ZideunMail.Tools;
 
 namespace ZideunMail.Models
 {

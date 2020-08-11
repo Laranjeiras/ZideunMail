@@ -5,7 +5,7 @@ using System.Net.Mail;
 using System.Net.Mime;
 using System.Threading.Tasks;
 using ZideunMail.Models;
-using ZideunMail.Std.Tools;
+using ZideunMail.Tools;
 
 namespace ZideunMail.Services
 {

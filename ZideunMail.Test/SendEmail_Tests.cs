@@ -19,7 +19,7 @@ namespace ZideunMail.Test
                 Email = "zideun@outlook.com",
                 EnableSsl = true,
                 Host = "smtp.office365.com",
-                Password = "suasenha",
+                Password = "password",
                 Port = 587,
                 Username = "zideun@outlook.com"
             };
